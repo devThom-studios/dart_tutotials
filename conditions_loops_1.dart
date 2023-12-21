@@ -1,4 +1,4 @@
-// Conditions and loops
+// conditions and loops
 
 enum Food { rice, coffee, wrap, pizza }
 
