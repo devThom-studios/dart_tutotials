@@ -92,7 +92,7 @@ class Laptop4 {
 }
 
 class MacBook4 extends Laptop4 {
-  MacBook4(String name, String color) : super.namedConstructor(name, color) {
+  MacBook4.namedConstructor(String name, String color) : super.namedConstructor(name, color) {
     print('thannks');
   }
 }
@@ -112,6 +112,6 @@ void main() {
   MacBook3 macBook3 = MacBook3(name: 'dell', color: 'black');
   macBook3;
   emptyLine();
-  MacBook4 macBook4 = MacBook4('thom', 'color');
+  MacBook4 macBook4 = MacBook4.namedConstructor('thom', 'color');
   macBook4;
 }
